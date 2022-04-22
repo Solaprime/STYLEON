@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STYLEONMobile.View.MyAccountPage" Padding="20"
+               Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <Style TargetType="Frame" x:Key="StyledFrame">
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="BackgroundColor" Value="Wheat"/>
+            <Setter Property="HasShadow" Value="True"/>
+            <Setter Property="HeightRequest" Value="10"/>
+        </Style>
+    </ContentPage.Resources>
+    <Grid RowDefinitions="Auto, 0.5*, Auto, 0.5*, Auto, 1.5*, Auto, 1.5*">
+        <Label Text="My Account" Style="{StaticResource OnBoardingText}" HorizontalOptions="CenterAndExpand"/> 
+        <Grid ColumnDefinitions="Auto, 8*" Grid.Row="2">
+            <Frame HeightRequest="40" Grid.Column="0" WidthRequest="40" CornerRadius="100" BackgroundColor="RED">
+                <Image></Image>
+            </Frame>
+            <StackLayout Grid.Column="1" HorizontalOptions="StartAndExpand">
+                <Label Text="Lisa Jann"/>
+                <Label Text="Mail@Gmaoil.com"/>
+            </StackLayout>
+          
+        </Grid>
+        <StackLayout Grid.Row="4">
+            <Frame Style="{StaticResource StyledFrame}" >
+                <StackLayout Margin="0" HorizontalOptions="Fill" VerticalOptions="Fill">
+                    <Label Text="My Order" Style="{StaticResource OnBoardingText}" HorizontalOptions="Start" VerticalOptions="Center" FontSize="15" />
+                </StackLayout>
+            </Frame>
+            <Frame Style="{StaticResource StyledFrame}">
+                <StackLayout  Margin="0">
+                    <Label Text="My Cardsa" Style="{StaticResource OnBoardingText}" HorizontalOptions="Start" VerticalOptions="Center" FontSize="15"/>
+                </StackLayout>
+            </Frame>
+            <Frame Style="{StaticResource StyledFrame}">
+                <StackLayout >
+                    <Label Text="Payment History" Style="{StaticResource OnBoardingText}" HorizontalOptions="Start" VerticalOptions="Center" FontSize="15"/>
+                </StackLayout>
+            </Frame>
+            <Frame Style="{StaticResource StyledFrame}">
+                <StackLayout >
+                    <Label Text="My sdfg" Style="{StaticResource OnBoardingText}" HorizontalOptions="Start" VerticalOptions="Center" FontSize="15"/>
+                </StackLayout>
+            </Frame>
+            <Frame Style="{StaticResource StyledFrame}">
+                <StackLayout >
+                    <Label Text="My Order" Style="{StaticResource OnBoardingText}" HorizontalOptions="Start" VerticalOptions="Center" FontSize="15"/>
+                </StackLayout>
+            </Frame>
+            <Frame Style="{StaticResource StyledFrame}">
+                <StackLayout >
+                    <Label Text="Change Email or Pasword" Style="{StaticResource OnBoardingText}" HorizontalOptions="Start" VerticalOptions="Center" FontSize="15"/>
+                </StackLayout>
+            </Frame>
+           
+        </StackLayout>
+
+        <Button Text="LOg Out" Style="{StaticResource BlackButton}"  Grid.Row="6"/>
+    </Grid>
+</ContentPage>

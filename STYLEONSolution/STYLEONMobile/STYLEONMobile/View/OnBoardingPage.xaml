@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STYLEONMobile.View.OnBoardingPage"
+             BackgroundImageSource="Femalee.jpg"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid RowDefinitions="1.5*, Auto, .5*, Auto, 3*, Auto, .4*" Margin="20">
+        <Label Text="StyleOn" Grid.Row="1" Style="{StaticResource OnBoardingHeader}"/>
+        <Label Text="Explore the new World of Clothing" Grid.Row="3" Style="{StaticResource OnBoardingBody}"/>
+        <Button Text="Lets Explore" Style="{StaticResource WhiteButton}" Grid.Row="5"
+                Clicked="Button_Clicked"/>
+    </Grid>
+  
+
+    <!--<Grid RowDefinitions="1.5*, 1*, .5*, .4*">
+    <BoxView Color="Red" Grid.Row="0"/>
+    <BoxView Color="Yellow" Grid.Row="1"/>
+    <BoxView Color="Yellow" Grid.Row="2"/>
+    <BoxView Color="Purple" Grid.Row="3"/>
+    </Grid>-->
+</ContentPage>

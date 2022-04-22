@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STYLEONMobile.View.AppShell"
+       NavigationPage.HasNavigationBar="False"
+       xmlns:views="clr-namespace:STYLEONMobile.View">
+
+    <Shell.Resources>
+        <Color x:Key="ThemeColor">#530100</Color>
+        <Color x:Key="GrayColor">Gray </Color>
+        <Color x:Key="BGColor">#F0f0f0</Color>
+        <Style x:Key="BaseStyle" TargetType="Element">
+            <Setter Property="Shell.BackgroundColor" Value="{StaticResource BGColor}"/>
+            <!--<Setter Property="Shell.BackgroundColor" Value="Green"/>-->
+            <Setter Property="Shell.ForegroundColor" Value="{StaticResource ThemeColor}"/>
+            <Setter Property="Shell.UnselectedColor" Value="{StaticResource GrayColor}"/>
+            <Setter Property="Shell.TitleColor" Value="{StaticResource ThemeColor}"/>
+            <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource BGColor}"/>
+            <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource ThemeColor}"/>
+            <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource GrayColor}"/>
+            <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource ThemeColor}"/>
+    
+        </Style>
+        <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}"/>
+    </Shell.Resources>
+    
+    
+    <TabBar >
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}" Icon="home.png"/>
+        <ShellContent Title="Test"  Icon="home.png" ContentTemplate="{DataTemplate views:FirstPage}"/>
+        <ShellContent Title="Favourite" Icon="home.png" ContentTemplate="{DataTemplate views:FavouritePage}"/>
+        <ShellContent Title="Account" Icon="home.png" ContentTemplate="{DataTemplate views:MyAccountPage}"/>
+    </TabBar>
+
+
+
+</Shell>

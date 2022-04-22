@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STYLEONMobile.View.VerificationPage">
+    <Grid Margin="20" RowDefinitions="Auto, 100, Auto">
+        <Label Text="Vibes" Grid.Row="0"/>
+        <StackLayout Grid.Row="2">
+            <Label Text="StyleON" Style="{StaticResource OnBoardingHeader}"/>
+            <Label Text="Enter the code to verify your Account" Style="{StaticResource OnBoardingBody}"/>
+            <Label Text="We have sent you an sms with a cod to Your Phone NUmber"/>
+            <Entry HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Numeric"/>
+            <Label Text="You didnt receive the code tap to get code again"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

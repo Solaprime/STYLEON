@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ytGTT/3I+A24EjmFILRkAm2GfjfZbv8c38d8I1i5dCEK0ez8CoQVoIP1wQYAoR4HNAgMlQr0dZyIgR36ic1c5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arinola\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Arinola\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
