@@ -20,6 +20,23 @@
         <Style TargetType="Label" x:Key="OnBoardingBody"    BasedOn="{StaticResource OnBoardingHeader}">
             <Setter Property="FontSize" Value="30"/>
         </Style>
+        <!--BLACK lABEL-->
+        <Style TargetType="Label" x:Key="OnBoardingTextB">
+            <Setter Property="FontFamily" Value="PlayFairBold"/>
+            <Setter Property="TextDecorations" Value="None"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="TextColor" Value="Black"></Setter>
+        </Style>
+
+        <Style TargetType="Label"  x:Key="OnBoardingHeaderB"  BasedOn="{StaticResource OnBoardingTextB}">
+            <Setter Property="FontSize" Value="60"/>
+            <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+            <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+        </Style>
+
+        <Style TargetType="Label" x:Key="OnBoardingBodyB"    BasedOn="{StaticResource OnBoardingHeaderB}">
+            <Setter Property="FontSize" Value="30"/>
+        </Style>
         <!--Label-->
         
         <!--BUTTOn-->

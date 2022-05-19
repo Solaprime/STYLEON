@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="STYLEONMobile.View.CreateAccountPage">
+             x:Class="STYLEONMobile.View.CreateAccountPage"
+               NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="femaleee.jpg">
     <ContentPage.Resources>
         <Style TargetType="Entry" >
-           
+            <Setter Property="PlaceholderColor" Value="Wheat"/>
+            <Setter Property="TextColor" Value="blue"/>
         </Style>
     </ContentPage.Resources>
     <Grid RowDefinitions="Auto, 1*, Auto, 0.4*, Auto, 0.4*, Auto, 1,5*" Padding="20">
@@ -21,7 +24,7 @@
             <Button Text="sign up" Style="{StaticResource WhiteButton}" x:Name="SignUpButton" 
                     Clicked="SignUpButton_Clicked"/>
             <Button Text="Login With FaceBook" Style="{StaticResource BlueButton}"/>
-            <Label Text="Already Haave an Account? sign in" HorizontalOptions="Center">
+            <Label Text="Already Have an Account? sign in" HorizontalOptions="Center" Style="{StaticResource OnBoardingText}">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnLabel_Tapped">
                         
@@ -29,5 +32,6 @@
                 </Label.GestureRecognizers>
             </Label>
         </StackLayout>
+        
     </Grid>
 </ContentPage>

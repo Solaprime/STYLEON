@@ -583,3 +583,4 @@ C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile.And
 C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile.Android\obj\Debug\110\res\drawable\femalee.jpg
 C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile.Android\obj\Debug\110\res\drawable\arrow.png
 C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile.Android\obj\Debug\110\STYLEONMobile.Android.csproj.CopyComplete
+C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile.Android\obj\Debug\110\res\drawable\femaleee.jpg

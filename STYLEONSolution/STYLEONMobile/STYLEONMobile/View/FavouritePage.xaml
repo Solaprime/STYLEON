@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="STYLEONMobile.View.FavouritePage" Padding="10"
               Shell.NavBarIsVisible="False"
-             NavigationPage.HasNavigationBar="False">
+             >
     <ContentPage.Resources>
        
     </ContentPage.Resources>

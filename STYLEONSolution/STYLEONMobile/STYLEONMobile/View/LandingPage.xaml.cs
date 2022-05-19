@@ -21,7 +21,9 @@ namespace STYLEONMobile.View
         {
             //await this.Navigation.PushAsync(new AppShell());
 
-          await this.Navigation.PushModalAsync(new AppShell());
+            await this.Navigation.PushAsync(new TestPage());
+            //await this.Navigation.PushAsync(new FirstPage());
+            //  await this.Navigation.PushAsync(new FavouritePage());
         }
 
         private  async void SignUP_Clicked(object sender, EventArgs e)

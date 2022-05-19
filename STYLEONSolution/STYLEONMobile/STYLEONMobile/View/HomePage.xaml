@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="STYLEONMobile.View.HomePage" 
             xmlns:common="clr-namespace:STYLEONMobile.Common"
-             xmlns:vm="clr-namespace:STYLEONMobile.ViewModel"  NavigationPage.HasNavigationBar="False" BackgroundColor="Yellow">
+             xmlns:vm="clr-namespace:STYLEONMobile.ViewModel"   BackgroundColor="Red">
     <ContentPage.BindingContext>
         <vm:HomePageViewModel/>
     </ContentPage.BindingContext>
