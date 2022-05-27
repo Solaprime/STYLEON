@@ -12,9 +12,10 @@ namespace STYLEONMobile
             InitializeComponent();
 
             //MainPage = new HomePage();
-            MainPage = new AppShell();
-            //MainPage = new NavigationPage(new OnBoardingPage());
-
+            //MainPage = new AppShell();
+            //MainPage = new Page1();
+            MainPage = new NavigationPage(new OnBoardingPage());
+            //MainPage = new Page1();
             //MainPage = new TestPage();
         }
 

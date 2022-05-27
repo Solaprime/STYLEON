@@ -27,3 +27,5 @@ C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile\obj
 C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile\obj\Debug\netstandard2.0\View\FavouritePage.xaml.g.cs
 C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile\obj\Debug\netstandard2.0\View\DetailPage.xaml.g.cs
 C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile\obj\Debug\netstandard2.0\View\ShippingPage.xaml.g.cs
+C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile\obj\Debug\netstandard2.0\View\Demo.xaml.g.cs
+C:\Users\Arinola\Desktop\STYLEON\STYLEONSolution\STYLEONMobile\STYLEONMobile\obj\Debug\netstandard2.0\View\Page1.xaml.g.cs
