@@ -17,6 +17,8 @@ namespace STYLEONMobile
             MainPage = new NavigationPage(new OnBoardingPage());
             //MainPage = new Page1();
             //MainPage = new TestPage();
+            //MainPage = new VerificationPage();
+
         }
 
         protected override void OnStart()

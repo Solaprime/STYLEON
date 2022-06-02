@@ -27,7 +27,7 @@
 
     <TabBar >
         <ShellContent Title="Home" Icon="home.png" ContentTemplate="{DataTemplate views:HomePage}" />
-        <ShellContent Title="Test"  Icon="home.png" ContentTemplate="{DataTemplate views:FirstPage}"/>
+        <ShellContent Title="Test"  Icon="home.png" ContentTemplate="{DataTemplate views:ExplorePage}"/>
         <ShellContent Title="Favourite" Icon="home.png" ContentTemplate="{DataTemplate views:FavouritePage}"/>
         <ShellContent Title="Account" Icon="home.png" ContentTemplate="{DataTemplate views:MyAccountPage}"/>
     </TabBar>

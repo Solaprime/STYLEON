@@ -2,15 +2,60 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             NavigationPage.HasNavigationBar="False"
-             x:Class="STYLEONMobile.View.VerificationPage">
-    <Grid Margin="20" RowDefinitions="Auto, 100, Auto">
-        <Label Text="Vibes" Grid.Row="0"/>
-        <StackLayout Grid.Row="2">
-            <Label Text="StyleON" Style="{StaticResource OnBoardingHeader}"/>
-            <Label Text="Enter the code to verify your Account" Style="{StaticResource OnBoardingBody}"/>
-            <Label Text="We have sent you an sms with a cod to Your Phone NUmber"/>
+             x:Class="STYLEONMobile.View.VerificationPage"    BackgroundColor="Yellow">
+
+    <Grid Margin="0" RowDefinitions="*, 250">
+        <!--<Grid Grid.Row="0">
+        <Label Text="Vibes" />
+        <StackLayout >
+            <Label Text="StyleON" Style="{StaticResource OnBoardingHeaderB}"/>
+            <Label Text="Enter the code to verify your Account" Style="{StaticResource OnBoardingBodyB}"/>
+            <Label Text="We have sent you an sms with a code to Your Phone NUmber"/>
             <Entry HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Numeric"/>
             <Label Text="You didnt receive the code tap to get code again"/>
         </StackLayout>
+        </Grid>-->
+        <StackLayout Padding="0">
+            <Label Text="StyleON" Style="{StaticResource OnBoardingHeaderB}"/>
+            <Label Text="Enter the code to verify your Account" Style="{StaticResource OnBoardingBodyB}"/>
+            <Label Text="We have sent you an sms with a code to Your Phone NUmber"/>
+            <Entry HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Numeric"/>
+            <Label Text="You didnt receive the code tap to get code again"/>
+  
+        </StackLayout>
+        <Grid  Grid.Row="1" BackgroundColor="Red" Padding="10">
+        <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*" BackgroundColor="Wheat" RowSpacing="10" ColumnSpacing="10">
+            <Frame Grid.Row="0" Grid.Column="0" Style="{StaticResource CustomEntry}">
+                <Label Text="1" Style="{StaticResource CustomEntryLabel}"/>
+            </Frame>
+            <Frame Grid.Row="0" Grid.Column="1" Style="{StaticResource CustomEntry}">
+                <Label Text="2" Style="{StaticResource CustomEntryLabel}"/>
+            </Frame>
+            <Frame Grid.Row="0" Grid.Column="2" Style="{StaticResource CustomEntry}">
+                <Label Text="3" Style="{StaticResource CustomEntryLabel}"/>
+            </Frame>
+                <Frame Grid.Row="1" Grid.Column="0" Style="{StaticResource CustomEntry}">
+                    <Label Text="4" Style="{StaticResource CustomEntryLabel}"/>
+                </Frame>
+                <Frame Grid.Row="1" Grid.Column="1" Style="{StaticResource CustomEntry}">
+                    <Label Text="5" Style="{StaticResource CustomEntryLabel}"/>
+                </Frame>
+                <Frame Grid.Row="1" Grid.Column="2" Style="{StaticResource CustomEntry}">
+                    <Label Text="6" Style="{StaticResource CustomEntryLabel}"/>
+                </Frame>
+                <Frame Grid.Row="2" Grid.Column="0" Style="{StaticResource CustomEntry}">
+                    <Label Text="7" Style="{StaticResource CustomEntryLabel}"/>
+                </Frame>
+                <Frame Grid.Row="2" Grid.Column="1" Style="{StaticResource CustomEntry}">
+                    <Label Text="8" Style="{StaticResource CustomEntryLabel}"/>
+                </Frame>
+                <Frame Grid.Row="2" Grid.Column="2" Style="{StaticResource CustomEntry}">
+                    <Label Text="9" Style="{StaticResource CustomEntryLabel}"/>
+                </Frame>
+                <Frame Grid.Row="3" Grid.Column="1" Style="{StaticResource CustomEntry}">
+                    <Label Text="9" Style="{StaticResource CustomEntryLabel}"/>
+                </Frame>
+            </Grid>
+        </Grid>
     </Grid>
 </ContentPage>
