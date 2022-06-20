@@ -59,6 +59,6 @@
            
         </StackLayout>
 
-        <Button Text="LOg Out" Style="{StaticResource BlackButton}"  Grid.Row="6"/>
+        <Button Text="LOg Out" Style="{StaticResource BlackButton}"  Grid.Row="6" Clicked="Button_Clicked"/>
     </Grid>
 </ContentPage>

@@ -24,10 +24,8 @@ namespace STYLEONMobile.View
 
         private async void SignIn_Clicked(object sender, EventArgs e)
         {
-            await this.Navigation.PushAsync(new AppShell());
-            //await this.Navigation.PushAsync(new HomePage());
-            //await this.Navigation.PushAsync(new FirstPage());
-          //  await this.Navigation.PushAsync(new FavouritePage());
+            Application.Current.MainPage = new AppShell();
+            
         }
     }
 }

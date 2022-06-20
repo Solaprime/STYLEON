@@ -12,10 +12,12 @@
 
   <ItemGroup>
     <None Remove="Common\Font\PlayfairDisplay-ExtraBold.ttf" />
+    <None Remove="Common\Font\typicons.ttf" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Common\Font\PlayfairDisplay-ExtraBold.ttf" />
+    <EmbeddedResource Include="Common\Font\typicons.ttf" />
   </ItemGroup>
 
   <ItemGroup>
@@ -55,6 +57,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\HomePageT.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\LandingPage.xaml">

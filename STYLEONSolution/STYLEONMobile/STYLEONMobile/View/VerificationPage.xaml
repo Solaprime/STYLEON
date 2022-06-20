@@ -18,15 +18,15 @@
         <StackLayout Padding="0">
             <Label Text="StyleON" Style="{StaticResource OnBoardingHeaderB}"/>
             <Label Text="Enter the code to verify your Account" Style="{StaticResource OnBoardingBodyB}"/>
-            <Label Text="We have sent you an sms with a code to Your Phone NUmber"/>
+            <Label Text="We have sent you an sms with a code to Yourddd Phone NUmber"/>
             <Entry HorizontalOptions="Center" VerticalOptions="Center" Keyboard="Numeric"/>
             <Label Text="You didnt receive the code tap to get code again"/>
   
         </StackLayout>
-        <Grid  Grid.Row="1" BackgroundColor="Red" Padding="10">
+        <Grid  Grid.Row="1" BackgroundColor="Green" Padding="10">
         <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*" BackgroundColor="Wheat" RowSpacing="10" ColumnSpacing="10">
             <Frame Grid.Row="0" Grid.Column="0" Style="{StaticResource CustomEntry}">
-                <Label Text="1" Style="{StaticResource CustomEntryLabel}"/>
+                <Label Text="1" Style="{StaticResource CustomEntryLabel}" FontSize="10" TextColor="Purple"/>
             </Frame>
             <Frame Grid.Row="0" Grid.Column="1" Style="{StaticResource CustomEntry}">
                 <Label Text="2" Style="{StaticResource CustomEntryLabel}"/>

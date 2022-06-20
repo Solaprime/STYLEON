@@ -2,25 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="STYLEONMobile.View.ExplorePage"
-             xmlns:vm="clr-namespace:STYLEONMobile.ViewModel">
+             xmlns:vm="clr-namespace:STYLEONMobile.ViewModel"  Padding="0">
 
     <ContentPage.BindingContext>
         <vm:HomePageViewModel/>
     </ContentPage.BindingContext>
     <CollectionView ItemsSource="{Binding GetClothes}">
-        <CollectionView.Header>
+        <CollectionView.Header >
             <StackLayout>
                 <Label Text="Explore" Style="{StaticResource OnBoardingBodyB}"/>
             </StackLayout>
         </CollectionView.Header>
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <Frame HeightRequest="400" CornerRadius="20">
+                <Frame HeightRequest="400" CornerRadius="20" Margin="0">
                 <Grid  HorizontalOptions="FillAndExpand" >
                     <Image Source="{Binding ImageUrl}" Aspect="Fill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
-                    <StackLayout>
-                        <Label Text="Imagination is your Motivation"/>
-                        <Label Text="New Collection"/>
+                    <StackLayout VerticalOptions="CenterAndExpand">
+                        <Label Text="Imagination is your Motivation"  Style="{StaticResource OnBoardingBodyB}"/>
+                        <Label Text="New Collection" TextColor="Green"/>
                     </StackLayout>
                 </Grid>
                 </Frame>

@@ -10,6 +10,7 @@ namespace STYLEONMobile.Model
         private double price;
         private string name;
         private bool largeSize;
+        private string description;   
 
         public bool LargeSize
         {
@@ -32,7 +33,11 @@ namespace STYLEONMobile.Model
             get { return name; }
             set { name = value; }
         }
-
+        public string  Description
+        {
+            get { return description; }
+            set { description = value; }
+        }
 
     }
 }

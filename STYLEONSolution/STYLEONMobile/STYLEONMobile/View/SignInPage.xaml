@@ -4,15 +4,17 @@
              x:Class="STYLEONMobile.View.SignInPage" 
              BackgroundImageSource="femalee.jpg">
     <ContentPage.Resources>
-        <Style TargetType="Entry"/>
-        
+        <Style TargetType="Entry" >
+            <Setter Property="PlaceholderColor" Value="Wheat"/>
+            <Setter Property="TextColor" Value="blue"/>
+        </Style>
     </ContentPage.Resources>
     <Grid RowDefinitions ="Auto, 0.6*, Auto, 0.2*, Auto, 0.2*, Auto, 1*" Margin="20">
         <Label Text="VIbs" Grid.Row="0"/>
         <Label Text="StyleOn"  Style="{StaticResource OnBoardingHeader}" Grid.Row="2"/>
         <Label Text="SignIn" Style="{StaticResource OnBoardingHeader}" Grid.Row="4"/>
         <StackLayout Grid.Row="6">
-            <Entry Placeholder="Email" Keyboard="Email" IsSpellCheckEnabled="False"/>
+            <Entry Placeholder="Email" Keyboard="Email" IsSpellCheckEnabled="False" />
             <Entry Placeholder="Password" Keyboard="Email" IsSpellCheckEnabled="False"/>
             <StackLayout Orientation="Horizontal">
                 <Grid ColumnDefinitions="0.5*, 0.5*" Padding="0,10,0, 20">
@@ -20,10 +22,10 @@
                 <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Grid.Column="0 " 
                              >
                     <CheckBox />
-                    <Label Text="RememberMe" FontSize="18"/>
+                    <Label Text="RememberMe" FontSize="18" TextColor="Wheat"/>
                 </StackLayout>
                 <Label Text="ForgetPassword" HorizontalOptions="End" x:Name="ForgetPassword" Grid.Column="1"
-                   >
+                  TextColor="Wheat" >
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer Tapped="ForgetPassWord_Tapped"></TapGestureRecognizer>
                     </Label.GestureRecognizers>
@@ -31,7 +33,7 @@
                 </Grid>
             </StackLayout>
             <Button Text="SignIn" Style="{StaticResource WhiteButton}" Margin="0,0,0, 20" Clicked="SignIn_Clicked"/>
-            <Label Text="Dont Have a Account? Create Account" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+            <Label Text="Dont Have a Account? Create Account" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="Wheat"/>
         </StackLayout>
     </Grid>
 </ContentPage> 

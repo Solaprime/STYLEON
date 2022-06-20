@@ -76,11 +76,11 @@
         
             <Style TargetType="Frame" x:Key="CustomEntry">
                 <Setter Property="CornerRadius" Value="20"/>
-                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="BackgroundColor" Value="white"/>
   
             </Style>
         <Style TargetType="Label" x:Key="CustomEntryLabel" BasedOn="{StaticResource OnBoardingBodyB}">
-            <Setter Property="FontSize" Value="Medium"/>
+            <!--<Setter Property="FontSize" Value="Medium"/>-->
             <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
             <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
 

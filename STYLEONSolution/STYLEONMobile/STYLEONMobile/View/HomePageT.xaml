@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:vm="clr-namespace:STYLEONMobile.ViewModel"
+             x:Class="STYLEONMobile.View.HomePageT">
+    <ContentPage.BindingContext>
+        <vm:HomePageViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid RowDefinitions="200, *" >
+            <StackLayout>
+                <CarouselView ItemsSource="{Binding GetCarousel}" HeightRequest="270" 
+                  IsScrollAnimated="True" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                IndicatorView="indicator" >
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="0" >
+                                <Image Source="{Binding ImageUrl}" Aspect="Fill" HorizontalOptions="FillAndExpand"/>
+                                <StackLayout Margin="30,0,0,0" Spacing="15" HorizontalOptions="FillAndExpand"
+                                     VerticalOptions="Center">
+                                    <Label Text="{Binding Header}" TextColor="Red" Style="{StaticResource OnBoardingText}"/>
+                                    <Label Text="{Binding Body}"/>
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+
+                </CarouselView>
+                <IndicatorView x:Name="indicator" SelectedIndicatorColor="Black" IndicatorColor="Gray"
+                      IndicatorsShape="Square"  >
+                </IndicatorView>
+            </StackLayout>
+            <CollectionView  ItemsSource="{Binding GetClothes}" Grid.Row="1"   >
+                <CollectionView.Header>
+                    <StackLayout BackgroundColor="Pink">
+                        <Label Text="SUMMER COLLECTION" Style="{StaticResource OnBoardingText}"/>
+                    </StackLayout>
+                </CollectionView.Header>
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="10" HorizontalItemSpacing="10"
+                        Span="2" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                    <Frame  Padding="0" HeightRequest="250" WidthRequest="150" CornerRadius="10" >
+                        <Grid RowDefinitions="200, 50" 
+                          HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Frame Grid.Row="0" Padding="0">
+
+                                <Image Source="{Binding ImageUrl}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="Fill"/>
+                            </Frame>
+                            <StackLayout Grid.Row="1" Padding="0" Spacing="0">
+                                <Label Text="{Binding Name}" HorizontalOptions="Start" Style="{StaticResource OnBoardingText}" TextColor="Red"/>
+                                <Label Text= "{Binding Price}" HorizontalOptions="Start"  TextColor="Blue"
+                                       Style="{StaticResource OnBoardingText }" FontSize="15"/>
+                            </StackLayout>
+
+                        </Grid>
+
+                    </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

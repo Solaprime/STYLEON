@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace STYLEONMobile.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MyAccountPage : ContentPage
+    public partial class HomePageT : ContentPage
     {
-        public MyAccountPage()
+        public HomePageT()
         {
             InitializeComponent();
-        }
-
-        private  async void Button_Clicked(object sender, EventArgs e)
-        {
-            await DisplayAlert("Are you sure You want to Exit the App", "VibeA", "VibeB");
         }
     }
 }

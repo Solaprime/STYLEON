@@ -5,7 +5,7 @@ using STYLEONMobile.Model;
 
 namespace STYLEONMobile.ViewModel
 {
-    class HomePageViewModel
+    public class HomePageViewModel
     {
       public List<Clothe> GetClothes { get; set; }
         public List<Carousel> GetCarousel { get; set; }

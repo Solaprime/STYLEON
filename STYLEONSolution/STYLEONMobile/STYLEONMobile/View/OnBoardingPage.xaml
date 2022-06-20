@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="STYLEONMobile.View.OnBoardingPage"
+             xmlns:common="clr-namespace:STYLEONMobile.Common"
              BackgroundImageSource="Femalee.jpg"
              NavigationPage.HasNavigationBar="False">
 
@@ -9,7 +10,18 @@
         <Label Text="StyleOn" Grid.Row="1" Style="{StaticResource OnBoardingHeader}"/>
         <Label Text="Explore the new World of Clothing" Grid.Row="3" Style="{StaticResource OnBoardingBody}"/>
         <Button Text="Lets Explore" Style="{StaticResource WhiteButton}" Grid.Row="5"
-                Clicked="Button_Clicked"/>
+                Clicked="Button_Clicked">
+            <Button.ImageSource>
+                <FontImageSource FontFamily="Typicons" 
+                                 Glyph="{x:Static common:IconFont.ArrowRightThick}"
+                                 Color="Black"
+                                 Size="30"/>
+
+
+            </Button.ImageSource>
+        </Button>
+        
+        
     </Grid>
   
 
