@@ -16,5 +16,17 @@ namespace STYLEONMobile.View
         {
             InitializeComponent();
         }
+
+        private  async void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            //await this.Navigation.PushAsync(new DetailPage());
+
+        }
+
+        private async  void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            //await this.Navigation.PushAsync(new SignInPage());
+            Application.Current.MainPage = new SignInPage();
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ytGTT/3I+A24EjmFILRkAm2GfjfZbv8c38d8I1i5dCEK0ez8CoQVoIP1wQYAoR4HNAgMlQr0dZyIgR36ic1c5Q==",
+  "dgSpecHash": "k1Y+zsFQcjvVvZb2cpF+igES6uLUmx+7Opkd4wCm9LgDYCeaZaNpkFQyMuqUO7Wk3UZBulWibkpiffmW7qIPug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj",
+  "projectFilePath": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arinola\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Arinola\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

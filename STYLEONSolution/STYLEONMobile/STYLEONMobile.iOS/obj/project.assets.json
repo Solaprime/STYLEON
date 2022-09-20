@@ -997,11 +997,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.iOS\\STYLEONMobile.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.iOS\\STYLEONMobile.iOS.csproj",
       "projectName": "STYLEONMobile.iOS",
-      "projectPath": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.iOS\\STYLEONMobile.iOS.csproj",
+      "projectPath": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.iOS\\STYLEONMobile.iOS.csproj",
       "packagesPath": "C:\\Users\\Arinola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1022,8 +1022,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj": {
-              "projectPath": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj"
+            "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj": {
+              "projectPath": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj"
             }
           }
         }

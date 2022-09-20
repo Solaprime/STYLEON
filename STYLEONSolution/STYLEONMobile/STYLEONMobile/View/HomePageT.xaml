@@ -30,7 +30,7 @@
                       IndicatorsShape="Square"  >
                 </IndicatorView>
             </StackLayout>
-            <CollectionView  ItemsSource="{Binding GetClothes}" Grid.Row="1"   >
+            <CollectionView  ItemsSource="{Binding GetClothes}" Grid.Row="1"  SelectionChanged="CollectionView_SelectionChanged"  >
                 <CollectionView.Header>
                     <StackLayout BackgroundColor="Pink">
                         <Label Text="SUMMER COLLECTION" Style="{StaticResource OnBoardingText}"/>
@@ -42,7 +42,12 @@
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                    <Frame  Padding="0" HeightRequest="250" WidthRequest="150" CornerRadius="10" >
+                    <Frame  Padding="0" HeightRequest="250" WidthRequest="150" CornerRadius="10"  >
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped">
+                                    
+                                </TapGestureRecognizer>
+                            </Frame.GestureRecognizers>
                         <Grid RowDefinitions="200, 50" 
                           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                             <Frame Grid.Row="0" Padding="0">

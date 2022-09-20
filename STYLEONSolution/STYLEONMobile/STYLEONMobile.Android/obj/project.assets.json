@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.Android\\STYLEONMobile.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.Android\\STYLEONMobile.Android.csproj",
       "projectName": "STYLEONMobile.Android",
-      "projectPath": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.Android\\STYLEONMobile.Android.csproj",
+      "projectPath": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.Android\\STYLEONMobile.Android.csproj",
       "packagesPath": "C:\\Users\\Arinola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.Android\\obj\\",
+      "outputPath": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj": {
-              "projectPath": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj"
+            "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj": {
+              "projectPath": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile\\STYLEONMobile.csproj"
             }
           }
         }

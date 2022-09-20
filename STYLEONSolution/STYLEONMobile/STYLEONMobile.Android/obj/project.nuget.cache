@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ws6/LDfj/vjRSPB1t44Jr5LF91MxObdu7rTuE2LuUm2Pw8cAXy0G7wnMSTlahQGANW0o5f3n013QdaBrtGLdxA==",
+  "dgSpecHash": "dcNeD7kh1atPgpgBQESwmp3dwvZ1REXCuIAdtxDERqTEY3B5z1lk9jU0wc3rNw/Qx2DAgMilsOiG2oaAXHz+gA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arinola\\Desktop\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.Android\\STYLEONMobile.Android.csproj",
+  "projectFilePath": "C:\\Users\\Arinola\\Desktop\\StyleONFlow\\STYLEON\\STYLEONSolution\\STYLEONMobile\\STYLEONMobile.Android\\STYLEONMobile.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arinola\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
