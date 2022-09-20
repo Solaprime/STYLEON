@@ -1,89 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:StyleOn ="clr-namespace:STYLEONMobile.AppStyle"
              x:Class="STYLEONMobile.App">
     <Application.Resources>
-        <!--label -->
-        <Style TargetType="Label" x:Key="OnBoardingText">
-            <Setter Property="FontFamily" Value="PlayFairBold"/>
-            <Setter Property="TextDecorations" Value="None"/>
-            <Setter Property="FontAttributes" Value="Bold"/>
-            <Setter Property="TextColor" Value="White"></Setter>
-        </Style>
+        <ResourceDictionary>
+     
+            <ResourceDictionary.MergedDictionaries>
+                <!--BUTTOn-->
+                <StyleOn:ButtonStyle></StyleOn:ButtonStyle>
+                <!--Label-->
+                <StyleOn:LabelStyle></StyleOn:LabelStyle>
+                <!--Entry-->
+                <StyleOn:CustomeEntryStyle></StyleOn:CustomeEntryStyle>
+                <!--Frame-->
+                <StyleOn:FrameStyle></StyleOn:FrameStyle>
+            </ResourceDictionary.MergedDictionaries>
 
-        <Style TargetType="Label"  x:Key="OnBoardingHeader"  BasedOn="{StaticResource OnBoardingText}">
-            <Setter Property="FontSize" Value="60"/>
-            <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
-            <Setter Property="VerticalOptions" Value="StartAndExpand"/>
-        </Style>
-
-        <Style TargetType="Label" x:Key="OnBoardingBody"    BasedOn="{StaticResource OnBoardingHeader}">
-            <Setter Property="FontSize" Value="30"/>
-        </Style>
-        <!--BLACK lABEL-->
-        <Style TargetType="Label" x:Key="OnBoardingTextB">
-            <Setter Property="FontFamily" Value="PlayFairBold"/>
-            <Setter Property="TextDecorations" Value="None"/>
-            <Setter Property="FontAttributes" Value="Bold"/>
-            <Setter Property="TextColor" Value="Black"></Setter>
-        </Style>
-
-        <Style TargetType="Label"  x:Key="OnBoardingHeaderB"  BasedOn="{StaticResource OnBoardingTextB}">
-            <Setter Property="FontSize" Value="60"/>
-            <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
-            <Setter Property="VerticalOptions" Value="StartAndExpand"/>
-        </Style>
-
-        <Style TargetType="Label" x:Key="OnBoardingBodyB"    BasedOn="{StaticResource OnBoardingHeaderB}">
-            <Setter Property="FontSize" Value="30"/>
-        </Style>
-        <!--Label-->
-        
-        <!--BUTTOn-->
-        <Style TargetType="Button" x:Key="Button">
-            <Setter Property="CornerRadius" Value="20"/>
-            <!--<Setter Property="FontSize" Value="15"/>-->
-            
-        </Style>
-        <Style TargetType="Button" x:Key="WhiteButton" BasedOn="{StaticResource Button}">
-            <Setter Property="BackgroundColor" Value="White"/>
-            <Setter Property="TextColor" Value="Black"/>
-        </Style>
-        <Style TargetType="Button" x:Key="BlackButton" BasedOn="{StaticResource Button}">
-            <Setter Property="BackgroundColor" Value="Black"/>
-            <Setter Property="TextColor" Value="White"/>
-        </Style>
-        <Style TargetType="Button" x:Key="BlueButton" BasedOn="{StaticResource Button}">
-            <Setter Property="BackgroundColor" Value="Blue"/>
-            <Setter Property="TextColor" Value="White"/>
-        </Style>
-        <!--Button-->
-        <!-- FRAME for Favorited and cart-->
-        <Style TargetType="Frame" x:Key="FavFrame">
-            <Setter Property="HeightRequest" Value="100"/>
-            <Setter Property="BackgroundColor" Value="Wheat"/>
-            <Setter Property="HasShadow" Value="True"/>
-
-        </Style>
-        <Style TargetType="Frame" x:Key="SmallerFrame">
-            <Setter Property="HeightRequest" Value="50"/>
-            <Setter Property="WidthRequest" Value="40"/>
-            <Setter Property="BackgroundColor" Value="Blue"/>
-
-
-        </Style>
-        <!--Custom Entry-->
-        
-            <Style TargetType="Frame" x:Key="CustomEntry">
-                <Setter Property="CornerRadius" Value="20"/>
-                <Setter Property="BackgroundColor" Value="white"/>
-  
-            </Style>
-        <Style TargetType="Label" x:Key="CustomEntryLabel" BasedOn="{StaticResource OnBoardingBodyB}">
-            <!--<Setter Property="FontSize" Value="Medium"/>-->
-            <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
-            <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
-
-        </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
