@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STYLEONMobile.AppStyle.FrameStyle">
+
+    <!-- FRAME for Favorited and cart-->
+    <Style TargetType="Frame" x:Key="FavFrame">
+        <Setter Property="HeightRequest" Value="100"/>
+        <Setter Property="BackgroundColor" Value="Wheat"/>
+        <Setter Property="HasShadow" Value="True"/>
+
+    </Style>
+    <Style TargetType="Frame" x:Key="SmallerFrame">
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="WidthRequest" Value="40"/>
+        <Setter Property="BackgroundColor" Value="Blue"/>
+
+
+    </Style>
+</ResourceDictionary>
